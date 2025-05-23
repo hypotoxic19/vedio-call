@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Video Call App</title>
+  <style>
+    video { width: 300px; margin: 5px; background: black; }
+  </style>
+</head>
+<body>
+  <h1>Video Call Room</h1>
+  <video id="local-video" autoplay muted playsinline></video>
+  <div id="remote-videos"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
